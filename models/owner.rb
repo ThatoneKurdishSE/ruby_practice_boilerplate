@@ -1,4 +1,9 @@
 class Owner   
-    # name, age
-    # class method that spits out all of the owner objects
+    attr_reader( :name, :age )
+
+    def initialize( name, age)
+        @name = name
+        @age = age
+    end
+
 end
