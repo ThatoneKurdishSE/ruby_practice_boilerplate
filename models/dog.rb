@@ -17,4 +17,8 @@ class Dog
         @@all
     end 
 
+    def owner
+        # create a owner method
+        # The owner method doesn't have to live here, you can delete this code
+    end
 end

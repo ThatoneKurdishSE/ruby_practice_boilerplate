@@ -7,13 +7,7 @@ class Owner
     end
 
     def dogs
-        
-        Dog.all.select do | dog |
-            # if the return value is truthey, then the element stays in the array
-            # if the return value is falsey, then the element gets kicked out of th3e array 
-            1   
-        end
-        # in general a .select takes a large array and cuts out some elements from it
+    # add find all of the owners dogs     
     end
 
 end
