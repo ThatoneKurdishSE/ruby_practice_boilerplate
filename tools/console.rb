@@ -1,6 +1,9 @@
 require_relative '../config/environment.rb'
-doomslayer = Dog.new( "DOOMSLAYER", 1, "corgi/cattledog")
+
 
 jon = Owner.new( "jonathan", 27)
 
-p doomslayer
+doomslayer = Dog.new( "DOOMSLAYER", 1, "corgi/cattledog", jon)
+broomslayer = Dog.new( "BROOMSLAYER", 1, "corgi/cattledog", jon)
+#                      name of dog, age, breed, owner
+p Dog.all
